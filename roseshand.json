@@ -1,0 +1,17 @@
+{
+  "id": "roseshand",
+  "name": "Rose's Hand",
+  "author": [
+    "Killer-Radio"
+  ],
+  "description": "A custom Balatro mod that brings Rose and others into the game with unique jokers and more. All characters are original characters by Killer-Radio.",
+  "prefix": "RosesHand",
+  "main_file": "main.lua",
+  "version": "1.0.0",
+  "priority": 0,
+  "badge_colour": "666665",
+  "badge_text_colour": "FFFFFF",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
