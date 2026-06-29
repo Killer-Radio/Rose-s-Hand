@@ -248,7 +248,6 @@
               "params": {
                 "operation": {
                   "value": "divide",
-                  "label": "Divide",
                   "valueType": "text"
                 },
                 "value": {
@@ -300,7 +299,118 @@
   "enhancements": [],
   "seals": [],
   "editions": [],
-  "vouchers": [],
+  "vouchers": [
+    {
+      "objectKey": "transvoucher",
+      "objectType": "voucher",
+      "id": "833e35f0-36d3-4b3e-81b8-36f939bd9fda",
+      "name": "Trans-Voucher",
+      "description": "Skipping blinds grants a very {C:blue}masc{} boss tag,[s] while selecting blinds gives a crisp 15 {C:tarot}fem{}  dollars.",
+      "imagePreview": "data:image/png;base64,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",
+      "cost": 10,
+      "unlocked": true,
+      "discovered": true,
+      "can_repeat_soul": false,
+      "requires": "",
+      "requires_activetor": false,
+      "no_collection": false,
+      "unlockProperties": [],
+      "unlockOperator": "",
+      "unlockCount": 1,
+      "unlockDescription": "",
+      "rules": [
+        {
+          "id": "691b1b46-407a-438c-a317-248729f5efc2",
+          "trigger": "blind_selected",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "56cab861-2211-4323-b6dc-92fb5ac1833d",
+              "type": "set_dollars",
+              "params": {
+                "operation": {
+                  "value": "add"
+                },
+                "value": {
+                  "value": 15,
+                  "valueType": "number"
+                },
+                "limit_dollars": {
+                  "value": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ],
+                  "valueType": "checkbox"
+                },
+                "min_earnings": {
+                  "value": 0,
+                  "valueType": "number"
+                },
+                "max_earnings": {
+                  "value": 20,
+                  "valueType": "number"
+                },
+                "min_total": {
+                  "value": 0,
+                  "valueType": "number"
+                },
+                "max_total": {
+                  "value": 25,
+                  "valueType": "number"
+                }
+              },
+              "customMessage": "Very fem"
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 413,
+            "y": 183
+          }
+        },
+        {
+          "id": "2eea92a2-0898-475f-8e46-982a356d3c7c",
+          "trigger": "blind_skipped",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "335139d0-0f5e-44fd-b753-c96cc74e37f9",
+              "type": "create_tag",
+              "params": {
+                "tag_type": {
+                  "value": "specific",
+                  "label": "Specific Tag",
+                  "valueType": "text"
+                },
+                "variable": {},
+                "specific_tag": {
+                  "value": "boss",
+                  "label": "Boss Tag - Re-rolls the next Boss Blind",
+                  "valueType": "text"
+                }
+              },
+              "customMessage": "Very masc"
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 741,
+            "y": 185
+          }
+        }
+      ],
+      "placeholderCreditIndex": 6,
+      "hasUserUploadedImage": true,
+      "draw_shader_sprite": false,
+      "orderValue": 1
+    }
+  ],
   "decks": [
     {
       "objectKey": "chaos_deck",
@@ -462,5 +572,5 @@
     }
   ],
   "version": "1.0.0",
-  "exportedAt": "2026-06-29T04:23:42.022Z"
+  "exportedAt": "2026-06-29T16:25:30.936Z"
 }
