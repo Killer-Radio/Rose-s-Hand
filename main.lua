@@ -25,6 +25,14 @@ SMODS.Atlas({
 })
 
 SMODS.Atlas({
+    key = "CustomVouchers", 
+    path = "CustomVouchers.png", 
+    px = 71,
+    py = 95, 
+    atlas_table = "ASSET_ATLAS"
+})
+
+SMODS.Atlas({
     key = "CustomDecks", 
     path = "CustomDecks.png", 
     px = 71,
@@ -50,6 +58,11 @@ if true then
     assert(SMODS.load_file("jokers/rose.lua"))()
     assert(SMODS.load_file("jokers/rosesketch.lua"))()
 end
+-- load the vouchers
+if true then
+    assert(SMODS.load_file("vouchers/transvoucher.lua"))()
+end
+
 -- load the decks
 if true then
     assert(SMODS.load_file("decks/chaos_deck.lua"))()
